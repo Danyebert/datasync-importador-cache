@@ -1,0 +1,4 @@
+pyodbc
+pywin32
+PySide6
+pyinstaller
