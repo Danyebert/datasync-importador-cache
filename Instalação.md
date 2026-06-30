@@ -64,6 +64,18 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+```
+Gerar .exe
+1 - cd "C:\Projeto\DataSync - Recovery\datasync_sqlite_access"
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+
+2 - pyinstaller --noconfirm --onefile --windowed --name DataSync `
+  --add-data "config;config" `
+  --add-data "templates;templates" `
+  app.py
+```
+
 ## Executar
 
 ```bat
